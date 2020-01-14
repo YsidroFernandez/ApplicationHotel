@@ -1,0 +1,56 @@
+.div-center{
+    text-align: center;
+}
+.content{
+    text-align: center;
+    width: 50%;
+    background-color: rgb(105, 247, 105);
+    border-radius: 15px;
+    margin-left: 25%;
+}
+
+.label-title{
+    margin-top: 5%;
+    color: black;
+    font-weight: bold;
+}
+.custom-select{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+    height: 10%;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.alert-div{
+    background-color: rgb(25, 216, 159);
+    width: 30%;
+    height: 10%;
+    margin-left: 35%;
+    border-radius: 10px;
+}
+.date-btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+    height: 10%;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+.btn-login{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: green;
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+.div-button{
+    margin-top: 5px;
+}

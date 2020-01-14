@@ -1,0 +1,27 @@
+<div class="div-login">
+    <div>
+        <img src="../../../assets/hotel.jpeg" alt="" class="img-login">
+     <div>
+         
+     </div>
+        <h1>Welcome to CHOTEL</h1>
+    </div>
+    <div >
+        <div>
+            <label class="label-title">Username</label>
+            <input type="email" class="input-login" [(ngModel)]="username">
+        </div>
+        <div>
+            <label class="label-title">Password</label>
+            <input type="password" class="input-login" [(ngModel)]="password">
+        </div>
+        <div class="div-button">
+            <button type="button" class="btn-login" (click)="login()"> Sing In </button>  
+        </div>
+        <div class="div-button">
+            <button type="button" class="btn-register" (click)="singUp()"> Sing Up</button>
+        </div>
+       
+    
+    </div>
+</div>

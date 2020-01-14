@@ -1,0 +1,35 @@
+<div class="div-center">
+    <h1>Reservation</h1>
+    <div class="content">
+        <div class="select-input">
+            <div >
+                <label class="label-title">Tipo de habitación</label>
+            </div>
+            <select class="custom-select"  [(ngModel)]="type"  >
+                <option value="1" (click)="selectRoom(type)">Familiar</option>
+                <option value="2" (click)="selectRoom(type)" >Doubles</option>
+                <option value="3" (click)="selectRoom(type)">Single</option>
+            </select>
+        </div>
+        <div *ngIf="available !== undefined" class="alert-div">
+            <h4> Hay {{ available }} habitaciones disponibles </h4>
+        </div>
+        <div >
+            <label class="label-title" > Fecha de ingreso</label>
+        </div>
+        <div>
+            <input id="dateOfBirth" [(ngModel)]="dateIn" type="date" bsDatepicker class="date-btn" />
+        </div>
+        <div >
+            <label class="label-title"> Fecha de salida</label>         
+        </div>
+        <div>
+            <input id="dateOfBirth" [(ngModel)]="dateOut" type="date" bsDatepicker class="date-btn" />
+        </div>
+
+        <div class="div-button">
+            <button type="button" class="btn-login" (click)="reserved()">Reservar</button>  
+        </div>
+        
+    </div>  
+</div>

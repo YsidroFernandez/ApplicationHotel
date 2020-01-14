@@ -1,0 +1,55 @@
+.div-center{
+    text-align: center;
+}
+.content{
+    text-align: center;
+    width: 50%;
+    background-color: rgb(105, 247, 105);
+    border-radius: 15px;
+    margin-left: 25%;
+}
+
+.label-title{
+    margin-top: 5%;
+    color: black;
+    font-weight: bold;
+}
+
+.date-btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+    height: 10%;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+.btn-login{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: green;
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+.div-button{
+    margin-top: 5px;
+}
+.input-login{
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+}
+.div-register{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    height: 20%;
+}
